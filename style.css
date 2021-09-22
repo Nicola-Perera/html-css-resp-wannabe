@@ -72,10 +72,34 @@ img {
   clear: both;
 }
 
+/* bonus */
+@media screen and (max-width: 768px) {
+  #lezioni .row,
+  #steps .row {
+    display: flex;
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+    #lezioni, #why {
+    width: 100%;
+  }
+
+
+  
+  body {
+      background-color: khaki;
+  }
+}
+
+
 /* media queries */
 @media screen and (max-width: 419px) {
   #lezioni, #why {
-    width: 100%;
+    width: 100%; 
     background-color: #f2f2cd;
   }
 
@@ -99,5 +123,9 @@ img {
 
   body {
     width: 100%;
+    background-color: white;
   }
-}
+} 
+
+
+
