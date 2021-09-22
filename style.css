@@ -79,6 +79,10 @@ img {
     background-color: #f2f2cd;
   }
 
+  .row {
+    width: 100%;
+  }
+
   #steps {
     background-color: white;
   }
@@ -90,5 +94,10 @@ img {
   #steps .row>.right {
     float: initial;
     margin: auto;
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
   }
 }
