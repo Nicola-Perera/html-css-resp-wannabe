@@ -77,6 +77,22 @@ img {
   #lezioni .row,
   #steps .row {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    flex-shrink: 1;
+    width: 1005;
+  }
+
+  h1 {
     width: 100%;
   }
 
@@ -88,10 +104,12 @@ img {
     width: 100%;
   }
 
-
-  
   body {
       background-color: khaki;
+  }
+
+  #lezioni, #steps, #why {
+    background-color: lightblue;
   }
 }
 
@@ -119,6 +137,11 @@ img {
     float: initial;
     margin: auto;
     width: 100%;
+  }
+
+  #lezioni .row,
+  #steps .row {
+    display: block;
   }
 
   body {
